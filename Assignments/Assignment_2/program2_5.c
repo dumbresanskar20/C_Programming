@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdbool.h>
 
 #define TRUE 1
 #define FALSE 0
