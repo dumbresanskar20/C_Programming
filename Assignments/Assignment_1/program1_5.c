@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Accept
+// Description   : Displays a row of asterisks for the given count.
+// Input         : An integer count (set to 5 in main)
+// Output        : A row of asterisks
+// Author        : Sanskar balasaheb dumbre
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
 void Accept( int iNo)

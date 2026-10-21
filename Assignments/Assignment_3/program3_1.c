@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : PrintEven
+// Description   : Displays the first N even numbers.
+// Input         : A positive integer N
+// Output        : The first N even numbers
+// Author        : Sanskar balasaheb dumbre
+// Date          : 21/10/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 
 void PrintEven(int iNo)
