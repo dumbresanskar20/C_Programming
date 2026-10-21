@@ -1,9 +1,9 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : FindGreatest
-// Description   : Displays the greatest number from 3
-// Input         : An integer number
-// Output        : Which number is Greater
+// Function Name : DisplayGrade
+// Description   : Displays the grades of the students.
+// Input         : An Marks of student
+// Output        : Grade of student
 // Author        : Sanskar balasaheb dumbre
 // Date          : 21/10/2026
 //
@@ -26,11 +26,11 @@ void DisplayGrade(float fMarks)
     {
         printf("Grade: C");
     }
-    else if((fMarks >= 90) && (fMarks <= 100))
+    else if((fMarks >= 40) && (fMarks <= 59))
     {
         printf("Grade: D");
     }
-    else if((fMarks >= 90) && (fMarks <= 100))
+    else if((fMarks < 40) && (fMarks >= 0))
     {
         printf("Grade: Fail");
     }
