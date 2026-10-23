@@ -5,7 +5,6 @@
 int CheckPrime(int iNo)
 {
     int iCnt = 0;
-    int iSum = 0;
 
     for(iCnt = 2; iCnt <= iNo / 2; iCnt++)
     {
