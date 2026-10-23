@@ -7,7 +7,7 @@ int CheckPrime(int iNo)
     int iCnt = 0;
     int iSum = 0;
 
-    for(iCnt = 1; iCnt <= iNo / 2; iCnt++)
+    for(iCnt = 2; iCnt <= iNo / 2; iCnt++)
     {
         if((iNo % iCnt) == 0)
         {
@@ -15,7 +15,7 @@ int CheckPrime(int iNo)
         }
     }
 
-    if(iSum == 1)
+    if(iSum == 0)
     {
         return true;
     }
