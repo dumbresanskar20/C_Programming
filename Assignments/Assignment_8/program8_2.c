@@ -1,9 +1,9 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : TableRev
-// Description   : Print the Table of Given Number in Reverse Order.
-// Input         : Integer Number: 10.
-// Output        : Reverse Table of 10.
+// Function Name : Display
+// Description   : Print the word of Entered Single DigitNumber.
+// Input         : Integer Number: 5.
+// Output        : Five.
 // Author        : Sanskar Balasaheb Dumbre
 // Date          : 31/10/2026
 //
