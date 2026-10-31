@@ -1,9 +1,9 @@
 // ////////////////////////////////////////////////////////////////
 //
 // Function Name : SquareMeter
-// Description   : Convert Fahrenheit to Celcius
-// Input         : Enter Temperature in Fahrenheit: 10
-// Output        : Temperature in Celcius is : -12.222222
+// Description   : Convert SquareFeet to SquareMeter
+// Input         : Enter Area in Square Feet: 5
+// Output        : Area in SquareMeter : 0.464500
 // Author        : Sanskar Balasaheb Dumbre
 // Date          : 31/10/2026
 //
@@ -30,6 +30,6 @@ int main()
 
     dRet = SquareMeter(iValue);
 
-    printf("Temperature in Celcius is : %f", dRet);
+    printf("Area in SquareMeter : %f", dRet);
     return 0;
 }
