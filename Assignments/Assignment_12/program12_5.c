@@ -1,0 +1,55 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Count
+// Description   : Count digits less than 6 in number
+// Input         : Accept Number
+// Output        : Display digits less than 6
+// Author        : Sanskar Balasaheb Dumbre
+// Date          : 04/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+
+int Count(int iNo)
+{
+    int iDigit = 0;
+    int iCnt = 0;
+
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+
+    while(iNo != 0)
+    {
+        iDigit = iNo % 10;
+
+        if(iDigit < 6)
+        {
+            iCnt++;
+        }
+
+        iNo = iNo / 10;
+    }
+
+    return iCnt;
+
+    
+}
+
+int main () {
+
+    int iValue = 0;
+    int iRet = 0;
+
+    printf("Enter Number: ");
+    scanf("%d", &iValue);
+
+    iRet = Count(iValue);
+
+    printf("%d", iRet);
+    
+    return 0;
+  
+}
