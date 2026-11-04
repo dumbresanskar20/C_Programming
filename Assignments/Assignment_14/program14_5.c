@@ -1,9 +1,9 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : SumNonFact
-// Description   : Returns the summation ofNon Factors of the number
+// Function Name : FactDiff
+// Description   : Returns the difference of summation of factors and Non Factors of the number
 // Input         : Accept Number
-// Output        : Display Non Factors Summation.
+// Output        : Display Difference
 // Author        : Sanskar Balasaheb Dumbre
 // Date          : 04/11/2026
 //
@@ -11,7 +11,7 @@
 
 #include<stdio.h>
 
-int SumNonFact(int iNo)
+int FactDiff(int iNo)
 {
     int iCnt = 0;
     int iSumFact = 0;
@@ -43,7 +43,7 @@ int main()
     printf("Enter Number : \n");
     scanf("%d", &iValue);
 
-    iRet = SumNonFact(iValue);
+    iRet = FactDiff(iValue);
 
     printf("%d", iRet);
 
